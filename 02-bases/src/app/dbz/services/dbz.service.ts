@@ -20,7 +20,7 @@ export class DbzService {
   }];
 
 
-  onNewCharacter( character: Character):void {
+  addCharacter( character: Character):void {
     // Con ...character, le estamos diciendo que tome todas las propiedades
     // de character y las agregue aqui
     const newCharacter: Character = { id: uuid(), ...character }
